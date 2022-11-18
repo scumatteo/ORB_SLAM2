@@ -158,6 +158,7 @@ void LoadImages(const string &strPathToSequence, vector<string> &vstrImageLeft,
 
     for(int i=0; i<nTimes; i++)
     {
+        std::cout << i << "\n";
         stringstream ss;
         ss << setfill('0') << setw(6) << i;
         vstrImageLeft[i] = strPrefixLeft + ss.str() + ".png";

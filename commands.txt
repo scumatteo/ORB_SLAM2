@@ -1,0 +1,1 @@
+./stereo_kitti ../../Vocabulary/ORBvoc.txt KITTI00-02.yaml /mnt/c/Users/scuma/Università/datasets/KITTI_odometry/sequences/00
