@@ -1,0 +1,3 @@
+In the ORB_SLAM2 folder:
+
+rosrun ORB_SLAM2 RGBD Vocabulary/ORBvoc.txt Examples/ROS/ORB_SLAM2/D435.yaml 
