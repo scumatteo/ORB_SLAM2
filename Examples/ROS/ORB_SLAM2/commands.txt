@@ -1,3 +1,6 @@
 In the ORB_SLAM2 folder:
 
 rosrun ORB_SLAM2 RGBD Vocabulary/ORBvoc.txt Examples/ROS/ORB_SLAM2/D435.yaml 
+
+rosrun topic_tools relay /d400/color/image_raw /camera/rgb/image_raw
+rosrun topic_tools relay /d400/aligned_depth_to_color/image_raw /camera/depth_registered/image_raw
